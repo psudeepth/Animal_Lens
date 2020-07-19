@@ -50,10 +50,9 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
             
             if(firstObservation.confidence > 0.7){
                 print(firstObservation.identifier)
-                DispatchQueue.main.async { // Correct
-                   self.TXT_animal.text = (firstObservation.identifier)
-                }
-            }
+                DispatchQueue.main.async {self.TXT_animal.text = (firstObservation.identifier)}
+            } else {
+                DispatchQueue.main.async {self.TXT_animal.text = "Unknown"}
             
         }
         
