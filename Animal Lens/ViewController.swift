@@ -53,6 +53,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
                 DispatchQueue.main.async {self.TXT_animal.text = (firstObservation.identifier)}
             } else {
                 DispatchQueue.main.async {self.TXT_animal.text = "Unknown"}
+            }
             
         }
         
