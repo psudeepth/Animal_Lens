@@ -13,6 +13,7 @@
 		2E8CFEA724C4231A00C35FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8CFEA524C4231A00C35FE9 /* Main.storyboard */; };
 		2E8CFEA924C4231D00C35FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8CFEA824C4231D00C35FE9 /* Assets.xcassets */; };
 		2E8CFEAC24C4231D00C35FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8CFEAA24C4231D00C35FE9 /* LaunchScreen.storyboard */; };
+		2E8CFEB424C43D6600C35FE9 /* animals_birds.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2E8CFEB324C43D6600C35FE9 /* animals_birds.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2E8CFEA824C4231D00C35FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E8CFEAB24C4231D00C35FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E8CFEAD24C4231D00C35FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8CFEB324C43D6600C35FE9 /* animals_birds.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = animals_birds.mlmodel; path = ../../../coreML/animals_birds_project/animals_birds.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2E8CFE9F24C4231A00C35FE9 /* AppDelegate.swift */,
 				2E8CFEA124C4231A00C35FE9 /* SceneDelegate.swift */,
 				2E8CFEA324C4231A00C35FE9 /* ViewController.swift */,
+				2E8CFEB324C43D6600C35FE9 /* animals_birds.mlmodel */,
 				2E8CFEA524C4231A00C35FE9 /* Main.storyboard */,
 				2E8CFEA824C4231D00C35FE9 /* Assets.xcassets */,
 				2E8CFEAA24C4231D00C35FE9 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E8CFEA424C4231A00C35FE9 /* ViewController.swift in Sources */,
+				2E8CFEB424C43D6600C35FE9 /* animals_birds.mlmodel in Sources */,
 				2E8CFEA024C4231A00C35FE9 /* AppDelegate.swift in Sources */,
 				2E8CFEA224C4231A00C35FE9 /* SceneDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GU5WQ4524;
 				INFOPLIST_FILE = "Animal Lens/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.backbenchstudio.Animal-Lens";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GU5WQ4524;
 				INFOPLIST_FILE = "Animal Lens/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.backbenchstudio.Animal-Lens";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
